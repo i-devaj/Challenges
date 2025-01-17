@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100%;
+      }
+
+      header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 5px;
+      }
+      
+      h1{
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 2.25rem;
+      }
+      
+      main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #F8FAFC;
+        
+      }
+
+      ol{
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        gap: 10px;
+        letter-spacing: 0.5px;
+      }
+
+      span{
+        font-weight: 600;
+      }
+      a{
+        color: #4E80EE;
+      }
+
+      h2{
+        
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+
+      p{
+        
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .line-break{
+        
+        margin: 0 auto;
+        margin-top: 20px;
+        border-bottom: 0.5pt solid black;
+        width: 100%;
+      }
+
+      .q-and-a{
+        
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        gap:30px;
+        
+      }
+    </style> 
+  </head>
+  <body>
+    
+    <header>
+
+      <h1>Frequently Asked Questions</h1>
+    
+      <p>Browse through the most frequently asked questions</p>
+      
+    </header>
+
+
+    <main>
+
+      <div class="q-and-a">
+
+        <h2>How can I track my order?</h2>
+        
+        <p>You can track your order using the following steps</p>
+        
+        <ol name="steps" type="number" id="">
+          <li> Go to the Order <a>Tracking page</a>.</li>
+          
+          <li> Enter your order number and email address.</li>
+          
+          <li> Click on the Track Order button to view the current status of your shipment.</li>
+        </ol>
+        
+        <p>
+          If you encounter any issues, please visit our <a>Help Center</a>.
+        </p>
+        <div class="line-break"></div>
+
+      </div>
+      
+
+      <div class="q-and-a">
+
+        <h2>
+          What is your return policy?
+        </h2>
+        
+        <p>
+          We offer a 30-day return policy on most items. Here are some key points
+        </p>
+        
+        <ol style="list-style:disc;">
+          
+          <li><span>Items must be in original condition</span>: Unworn, unused, and unwashed.</li>
+          
+          <li style="line-height: 2;"><span>Include original packaging and tags</span>: All items should be returned with their original packaging and tags.</li>
+          
+          <li><span>Proof of purchase</span>: A receipt or proof of purchase is required.</li>
+          
+        </ol>
+        
+        <p>
+          For more detailed information, read our full <a>Return Policy</a>.
+        </p>
+      </div>
+        
+    </main>
+      
+    <footer>
+
+     <!-- Code by i-devaj -->
+    
+    </footer>
+  </body>
+</html>
